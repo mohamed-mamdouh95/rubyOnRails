@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  get 'courses/index'
+
   get 'greeter/hey'
   get 'greeter/finish'
-
+  get 'courses/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
